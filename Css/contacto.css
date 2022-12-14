@@ -1,0 +1,56 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(233, 240, 245);
+}
+body {
+    background-color: rgb(1, 28, 92);
+}
+h2 {
+    font-size: 80px;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+#img {
+    position: absolute;
+    width: 300px;
+    margin-left: 80%;
+    z-index: 2;
+    top: 10px;
+}
+#contenedor-contacto {
+    justify-content: center;
+    width: 60%;
+    margin: auto;    
+}
+#contenedor-formulario {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin: auto;
+}
+form {
+    font-size: 50px;
+    width: auto;
+}
+.form-input {
+    width: 100%;
+    color: black;
+}
+textarea {
+    width: 100%;
+    height: 50%;
+    color: black;
+}
+.boton {
+    width: 35%;
+    height: auto;
+    color: black;
+}
+#footer {
+    text-align-last: center;
+    padding: 50px;
+    background-color:rgb(31, 30, 30);
+    border-top: 5px solid;
+    margin-top: 130px;
+    font-size: 20px;
+}
